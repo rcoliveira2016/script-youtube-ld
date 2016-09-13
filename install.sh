@@ -1,6 +1,6 @@
 clear
-echo  istalar yoump3
-echo agarde, vai demorar, muito
+echo  instalar you-mp3
+echo aguarde, vai demorar, muito.....
 sudo apt-get install youtube-dl
 sudo apt-get install python-pip
 sudo pip install youtube-dl
