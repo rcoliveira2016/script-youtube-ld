@@ -2,4 +2,4 @@
 O script inicial instala o youtube-ld, pip e entre outras bibliotecas, para a fazer a conversão e download do video em mp3.
 Logo após, o script move para a pasta /bin outro script, que facilita a conversão do video do YouTube.
 /
-> $ you-mp3 <URL>
+> $ you-mp3 https://www.youtube.com/watch?v=a01QQZyl-_I
