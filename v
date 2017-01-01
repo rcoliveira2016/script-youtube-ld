@@ -7,7 +7,6 @@ data = str(date.today());
 if not os.path.exists('back'):
     os.mkdir('back')
     pass
-
 parser = optparse.OptionParser("Options:")
 parser.add_option("-d", "--dir", dest="diretorio", help="especifica um diretorio", metavar='<Diretorio> <Nome>', nargs=2)
 parser.add_option("-l", "--listar", dest="listar", help="especifica um diretorio", action="store_true", default=False)
