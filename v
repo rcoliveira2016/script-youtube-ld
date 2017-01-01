@@ -20,4 +20,4 @@ elif options.diretorio:
     else:
         os.system("tar -cvjf back/"+ data +".tar.bz2 "+ args[0]);
 else:
-    print("Argumentos invalidos")
+    print("Argumentos invalidos. Digite --help para ver argumentos")
