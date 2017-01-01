@@ -15,9 +15,9 @@ if len(args)==1 and not options.listar:
 elif options.listar:
     os.system("ls -lah back")
 elif options.diretorio:
-    if len(args)==2:
-        os.system("tar -cvjf back/"+args[1]+"_"+ data +".tar.bz2 "+ args[0]);
+    if len(options.diretorio)==2:
+        os.system("tar -cvjf back/"+options.diretorio[1]+"_"+ data +".tar.bz2 "+ options.diretorio[0]);
     else:
-        os.system("tar -cvjf back/"+ data +".tar.bz2 "+ args[0]);
+        os.system("tar -cvjf back/"+ data +".tar.bz2 "+ options.diretorio[0]);
 else:
     print("Argumentos invalidos. Digite --help para ver argumentos")
